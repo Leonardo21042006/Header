@@ -1,0 +1,158 @@
+
+footer {
+    background-color: #0081FE;
+    padding: 100px 183px;
+
+    height: 593px;
+}
+
+.footer {
+    display: flex;
+    flex-direction: row;
+    gap: 145px;
+
+    padding: 0px;
+    padding-bottom: 54px;
+}
+
+.footer-box {
+    display: flex;
+    flex-direction: column;
+}
+
+.footer-box h1 {
+    color: #FFFFFF;
+    font-size: 16px;
+    font-weight: 600;
+    margin-top: 32px;
+    margin-bottom: 15px;
+}
+
+.footer-box ul {
+    display: flex;
+    flex-direction: column;
+    gap: 12px;
+    margin-right: 0;
+}
+
+.footer-box ul li {
+    font-size: 16px;
+    font-weight: 400;
+    color: #ffffff93;
+}
+
+.box {
+    background-color: #97979788;
+    width: 338px;
+    height: 258px;
+
+    display: flex;
+    flex-direction: column;
+
+    padding: 32px 42px;
+}
+
+.box h1 {
+    margin-top: 0px;
+}
+
+.box .input {
+    width: 248px;
+    height: 50px;
+    border-radius: 5px;
+    background-color: white;
+    padding-left: 16px;
+}
+
+.box input {
+    width: 100%;
+    border: none;
+    outline: 0;
+    font-size: 14px;
+
+    margin-right: 16px;
+}
+
+.box input::placeholder {
+    color:#7A7E92;
+}
+
+.input i {
+    background-color: #478EFF;
+    width: 50px;
+    height: 50px;
+
+    display: flex;
+    justify-content: center;
+    align-items: center;
+
+    color: #FFFFFF;
+
+    font-size: 15px;
+
+    border-top-right-radius: 5px;
+    border-bottom-right-radius: 5px;
+
+    cursor: pointer;
+}
+
+.box p {
+    margin-top: 20px;
+    font-size: 12px;
+    color:#ffffff93;
+    line-height: 2;
+}
+
+
+.footer-end {
+    display: flex;
+    flex-direction: row;
+    justify-content: space-between;
+    padding-top: 30px;
+}
+
+.footer-end img {
+    margin-right: 0px;
+    width: 150px;
+    display: flex;
+    align-items: center;
+}
+
+.footer-end ul {
+    margin-right: 0px;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    gap: 40px;
+}
+
+.footer-end li {
+    font-size: 14px;
+    color: #fff;
+    font-weight: 500;
+}
+
+.icones {   
+    display: flex;
+    align-items: center;
+    gap: 15px;
+}
+
+.icones i {
+    height: 35px ;
+    width: 35px;
+    border: 2px solid #ffffff93;
+    color: #fff;
+    font-size: 15px;
+    padding: 10px;
+    border-radius: 50px;
+
+    display: flex;
+    align-items: center;
+
+    cursor: pointer;
+}
+
+hr {
+    border-color: #ffffff73;
+}
